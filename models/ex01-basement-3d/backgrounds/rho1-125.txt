@@ -1,0 +1,3 @@
+# top(m, z down) resistivity(ohm-m) chargeability(V/V)
+0 125 0
+50 1000 0.1

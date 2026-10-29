@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0", "mesh": "models/ex03-line48-3d/model-1000.mesh", "properties": "models/ex03-line48-3d/model.prop", "survey": "models/ex03-line48-3d/survey.txt", "background_file": "corner",
+  "dim": 3, "boundary": "dey-morrison", "reference": "electrode", "order": 2, "solver": "cg", "preconditioner": "amg",
+  "rtol": 1e-10, "max_iterations": 1000, "amg_strength_threshold": 0.6, "mumps_blr_tolerance": 0,
+  "uniform_refinements": 0, "tx_refinements": 3, "rx_refinements": 2, "robin_table": "auto",
+  "ranks": 64, "peak_memory_mib_max": 185.6, "peak_memory_mib_sum": 10925.3,
+  "background": [{"top": 0, "rho": 100, "eta": 0}, {"top": 50, "rho": 1000, "eta": 0}],
+  "passes": [
+    {"name": "dc", "wall_time": 14.2829, "solvers": [{"cells": 28960, "dofs": 239771, "truncation_faces": 4640, "wavenumbers": 1, "refine_time": 0.0986193, "fe_time": 0.0145536, "boundary_time": 0.00019208, "assemble_time": 0.0525063, "preconditioner_time": 0.0557021, "solve_time": 14.0081, "electrode_boundary_time": 0.0358512, "robin_evaluations": 0, "robin_tables": 0, "max_iterations": 117, "total_iterations": 5390, "n_solves": 47, "boundary_points": 41760, "clipped_points": 0, "electrode_points": 1962720, "electrode_clipped_points": 0, "unbounded_points": 0, "ratio_min": 6.227167e-01, "ratio_max": 1.687159e+00}]}
+  ]
+}

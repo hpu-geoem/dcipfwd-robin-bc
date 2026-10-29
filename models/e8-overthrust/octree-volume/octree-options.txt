@@ -1,0 +1,1 @@
+-tol-rho 0.1 -tol-eta 0.02 -min-size 1000:25,2500:50,1e30:100 -surface-box 8000,12000,8000,12000 -surface-size 50

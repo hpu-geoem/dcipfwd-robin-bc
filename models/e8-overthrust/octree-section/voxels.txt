@@ -1,0 +1,5 @@
+# Overthrust core: log10 resistivity then chargeability as float64, axis 0 fastest; depth is the last axis
+dimension 2
+origin 7600 0
+spacing 25
+shape 192 192

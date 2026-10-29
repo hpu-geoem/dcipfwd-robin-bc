@@ -1,0 +1,107 @@
+{
+ "date": "2026-10-28",
+ "purpose": "Local rerun of the Example 1 runs at 0.5 and 5 km (scripts/paper_runs.py run example1 --match -500 --ranks 8) against the cluster results of results/example1-*",
+ "local_machine": "Apple M5 Pro, macOS 26.6, Apple clang 21.0, Open MPI 5.0.10, MFEM 4.10.0, hypre 3.1.0, MUMPS 5.9.1, 8 MPI processes",
+ "local_binary_sha256": "18a2a0512065afc034dfb90214e06d6494479e673de6b779fdb08b8d92cd1d50",
+ "cluster_binary": "build of the paper runs (version 1.0.0 adds the option -ip-coefficients, timing output and tests)",
+ "runs": {
+  "example1-25d/de-500": {
+   "rho_a_max_rel_diff": 6.409159203357717e-09,
+   "m_a_max_abs_diff_mVV": 2.7649500000757193e-06
+  },
+  "example1-25d/de-5000": {
+   "rho_a_max_rel_diff": 5.047843920635842e-09,
+   "m_a_max_abs_diff_mVV": 5.25976999801725e-07
+  },
+  "example1-25d/ds-500": {
+   "rho_a_max_rel_diff": 6.423403697830565e-09,
+   "m_a_max_abs_diff_mVV": 2.7539030001723364e-06
+  },
+  "example1-25d/ds-5000": {
+   "rho_a_max_rel_diff": 5.0476904878138384e-09,
+   "m_a_max_abs_diff_mVV": 5.255749993202108e-07
+  },
+  "example1-25d/le-500": {
+   "rho_a_max_rel_diff": 6.412201991601307e-09,
+   "m_a_max_abs_diff_mVV": 2.7553260001280527e-06
+  },
+  "example1-25d/le-5000": {
+   "rho_a_max_rel_diff": 5.047531059787502e-09,
+   "m_a_max_abs_diff_mVV": 5.284670001950986e-07
+  },
+  "example1-25d/li-500": {
+   "rho_a_max_rel_diff": 6.415107778323659e-09,
+   "m_a_max_abs_diff_mVV": 2.7683580000863878e-06
+  },
+  "example1-25d/li-5000": {
+   "rho_a_max_rel_diff": 5.047531059787502e-09,
+   "m_a_max_abs_diff_mVV": 5.284160001922666e-07
+  },
+  "example1-25d/lm-500": {
+   "rho_a_max_rel_diff": 6.413272690686256e-09,
+   "m_a_max_abs_diff_mVV": 2.7667259999957644e-06
+  },
+  "example1-25d/lm-5000": {
+   "rho_a_max_rel_diff": 5.047531059787502e-09,
+   "m_a_max_abs_diff_mVV": 5.283309996093055e-07
+  },
+  "example1-25d/ls-500": {
+   "rho_a_max_rel_diff": 6.42626951652403e-09,
+   "m_a_max_abs_diff_mVV": 2.755730999946457e-06
+  },
+  "example1-25d/ls-5000": {
+   "rho_a_max_rel_diff": 5.047533946367366e-09,
+   "m_a_max_abs_diff_mVV": 5.284719996681564e-07
+  },
+  "example1-3d/de-500": {
+   "rho_a_max_rel_diff": 3.507938517444131e-08,
+   "m_a_max_abs_diff_mVV": 3.0815359998957736e-06
+  },
+  "example1-3d/de-5000": {
+   "rho_a_max_rel_diff": 6.463532908895786e-08,
+   "m_a_max_abs_diff_mVV": 0.00014205245800003388
+  },
+  "example1-3d/ds-500": {
+   "rho_a_max_rel_diff": 3.532410630668892e-08,
+   "m_a_max_abs_diff_mVV": 3.0660750000108955e-06
+  },
+  "example1-3d/ds-5000": {
+   "rho_a_max_rel_diff": 6.783707806601313e-08,
+   "m_a_max_abs_diff_mVV": 0.00014341459399994788
+  },
+  "example1-3d/le-500": {
+   "rho_a_max_rel_diff": 2.9739723461652545e-08,
+   "m_a_max_abs_diff_mVV": 6.784714000037176e-06
+  },
+  "example1-3d/le-5000": {
+   "rho_a_max_rel_diff": 1.047454525338054e-07,
+   "m_a_max_abs_diff_mVV": 0.00013523794899997915
+  },
+  "example1-3d/li-500": {
+   "rho_a_max_rel_diff": 2.9683576929784294e-08,
+   "m_a_max_abs_diff_mVV": 6.782288000098044e-06
+  },
+  "example1-3d/li-5000": {
+   "rho_a_max_rel_diff": 1.047783639851474e-07,
+   "m_a_max_abs_diff_mVV": 0.0001353247499999606
+  },
+  "example1-3d/lm-500": {
+   "rho_a_max_rel_diff": 3.0120612892758913e-08,
+   "m_a_max_abs_diff_mVV": 6.607614000007575e-06
+  },
+  "example1-3d/lm-5000": {
+   "rho_a_max_rel_diff": 1.0538598393949883e-07,
+   "m_a_max_abs_diff_mVV": 0.0001360238659998611
+  },
+  "example1-3d/ls-500": {
+   "rho_a_max_rel_diff": 2.9752895591705908e-08,
+   "m_a_max_abs_diff_mVV": 6.787262000042607e-06
+  },
+  "example1-3d/ls-5000": {
+   "rho_a_max_rel_diff": 6.588527057260762e-08,
+   "m_a_max_abs_diff_mVV": 0.00013171077900032968
+  }
+ },
+ "worst_rho_a": 1.0538598393949883e-07,
+ "worst_m_a_mVV": 0.00014341459399994788
+}

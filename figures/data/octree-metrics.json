@@ -1,0 +1,58 @@
+{
+ "section": {
+  "octree_core_cells": 8490,
+  "octree_cells_by_width_m": {
+   "25": 4452,
+   "50": 3243,
+   "100": 727,
+   "200": 50,
+   "400": 18
+  },
+  "octree_rms_log10_rho_eta_all": [
+   0.018494036679166395,
+   0.0013071645907212048
+  ],
+  "octree_rms_log10_rho_eta_top1km": [
+   0.013871492992248309,
+   0.002674905199216044
+  ],
+  "tensor_core_cells": 6432,
+  "tensor_horizontal_m": 50.0,
+  "tensor_rms_log10_rho_eta_all": [
+   0.12437068229828238,
+   0.004667704361791841
+  ],
+  "tensor_rms_log10_rho_eta_top1km": [
+   0.07413696840521321,
+   0.00853298170434584
+  ]
+ },
+ "volume": {
+  "octree_core_cells": 451506,
+  "octree_cells_by_width_m": {
+   "25": 199464,
+   "50": 205763,
+   "100": 42891,
+   "200": 3178,
+   "400": 210
+  },
+  "octree_rms_log10_rho_eta_all": [
+   0.07681551909523596,
+   0.002696190905027213
+  ],
+  "octree_rms_log10_rho_eta_top1km": [
+   0.015031540700162882,
+   0.0031533300498698628
+  ],
+  "tensor_core_cells": 154368,
+  "tensor_horizontal_m": 100.0,
+  "tensor_rms_log10_rho_eta_all": [
+   0.12052523956216088,
+   0.004500355871912185
+  ],
+  "tensor_rms_log10_rho_eta_top1km": [
+   0.07260635596726187,
+   0.008422227490660024
+  ]
+ }
+}

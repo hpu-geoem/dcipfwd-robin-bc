@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0", "mesh": "models/ex03-line48-3d/model-2000.mesh", "properties": "models/ex03-line48-3d/model.prop", "survey": "models/ex03-line48-3d/survey.txt", "background_file": "corner",
+  "dim": 3, "boundary": "layered", "reference": "electrode-data", "order": 2, "solver": "mumps", "preconditioner": "amg",
+  "rtol": 1e-10, "max_iterations": 1000, "amg_strength_threshold": 0.6, "mumps_blr_tolerance": 0,
+  "uniform_refinements": 0, "tx_refinements": 3, "rx_refinements": 2, "robin_table": "auto",
+  "ranks": 64, "peak_memory_mib_max": 553.7, "peak_memory_mib_sum": 30566.9,
+  "background": [{"top": 0, "rho": 100, "eta": 0}, {"top": 50, "rho": 1000, "eta": 0}],
+  "passes": [
+    {"name": "dc", "wall_time": 9.72834, "solvers": [{"cells": 43400, "dofs": 359207, "truncation_faces": 6044, "wavenumbers": 1, "refine_time": 0.167588, "fe_time": 0.240346, "boundary_time": 0.221986, "assemble_time": 0.115941, "preconditioner_time": 8.00553, "solve_time": 1.07119, "electrode_boundary_time": 0.0279387, "robin_evaluations": 1158, "robin_tables": 1, "max_iterations": 0, "total_iterations": 0, "n_solves": 47, "boundary_points": 54396, "clipped_points": 0, "electrode_points": 0, "electrode_clipped_points": 0, "unbounded_points": 0, "ratio_min": null, "ratio_max": null}]}
+  ]
+}

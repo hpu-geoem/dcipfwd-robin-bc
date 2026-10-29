@@ -1,0 +1,777 @@
+{
+ "date": "2026-10-28",
+ "purpose": "Rerun with the released code (dcipfwd 1.0.0) of all 141 runs of the example1 group (Example 1 and its background perturbations) and of DS, LE and LI on the 1 and 10 km domains of Examples 3 and 4, compared with the paper results in results/",
+ "build": "cluster build of version 1.0.0 (all unit tests passed); source files identical to release v1.0.0",
+ "run_job": "one exclusive node, same process counts as the paper runs; run list scripts/hpc/slurm/lists/verification.txt",
+ "paper_builds": "the builds of the paper runs (the second adds only the option -ip-coefficients)",
+ "result": "dV (and m_a where present) of all 153 runs bitwise identical to results/",
+ "count": 153,
+ "all_bitwise_identical": true,
+ "runs": {
+  "example1-25d/de-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/de-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/de-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/de-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/de-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ds-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ds-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ds-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ds-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ds-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/le-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/le-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/le-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/le-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/le-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/li-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/li-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/li-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/li-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/li-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/lm-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/lm-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/lm-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/lm-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/lm-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ls-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ls-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ls-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ls-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-25d/ls-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/de-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/de-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/de-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/de-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/de-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ds-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ds-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ds-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ds-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ds-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/le-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/le-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/le-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/le-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/le-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/li-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/li-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/li-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/li-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/li-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/lm-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/lm-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/lm-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/lm-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/lm-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ls-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ls-2000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ls-20000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ls-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example1-3d/ls-5000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example3/ds-dense-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example3/ds-dense-10000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example3/le-dense-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example3/le-dense-10000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example3/li-dense-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example3/li-dense-10000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example4/ds-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example4/ds-10000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example4/le-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example4/le-10000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example4/li-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "example4/li-10000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-h40-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-h40-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-h60-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-h60-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-kl10-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-kl20-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-kl25-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho1-125-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho1-125-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho1-80-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho1-80-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho2-2000-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho2-2000-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho2-500-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/le-rho2-500-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-h40-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-h40-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-h60-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-h60-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-kl10-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-kl20-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-kl25-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho1-125-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho1-125-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho1-80-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho1-80-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho2-2000-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho2-2000-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho2-500-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/li-rho2-500-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-h40-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-h40-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-h60-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-h60-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-kl10-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-kl20-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-kl25-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho1-125-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho1-125-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho1-80-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho1-80-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho2-2000-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho2-2000-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho2-500-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-25d/ls-rho2-500-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-h40-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-h40-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-h60-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-h60-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho1-125-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho1-125-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho1-80-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho1-80-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho2-2000-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho2-2000-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho2-500-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/le-rho2-500-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-h40-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-h40-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-h60-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-h60-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho1-125-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho1-125-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho1-80-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho1-80-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho2-2000-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho2-2000-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho2-500-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/li-rho2-500-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-h40-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-h40-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-h60-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-h60-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho1-125-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho1-125-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho1-80-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho1-80-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho2-2000-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho2-2000-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho2-500-1000": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  },
+  "robustness/example1-3d/ls-rho2-500-500": {
+   "dV_bitwise_identical": true,
+   "dV_max_rel_diff": 0.0,
+   "m_a_bitwise_identical": true
+  }
+ }
+}

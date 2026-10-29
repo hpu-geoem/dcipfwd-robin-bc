@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0", "mesh": "models/ex01-basement-3d/model-2000.mesh", "properties": "models/ex01-basement-3d/model.prop", "survey": "models/ex01-basement-3d/survey.txt", "background_file": "corner",
+  "dim": 3, "boundary": "layered", "reference": "electrode", "order": 2, "solver": "cg", "preconditioner": "amg",
+  "rtol": 1e-10, "max_iterations": 1000, "amg_strength_threshold": 0.6, "mumps_blr_tolerance": 0,
+  "uniform_refinements": 0, "tx_refinements": 3, "rx_refinements": 2, "robin_table": "auto",
+  "ranks": 64, "peak_memory_mib_max": 182.3, "peak_memory_mib_sum": 10495.0,
+  "background": [{"top": 0, "rho": 100, "eta": 0}, {"top": 50, "rho": 1000, "eta": 0.1}],
+  "passes": [
+    {"name": "dc", "wall_time": 2.24378, "solvers": [{"cells": 19032, "dofs": 159983, "truncation_faces": 3384, "wavenumbers": 1, "refine_time": 0.0629972, "fe_time": 0.122713, "boundary_time": 0.111528, "assemble_time": 0.0361219, "preconditioner_time": 0.0521511, "solve_time": 1.93903, "electrode_boundary_time": 0.00783745, "robin_evaluations": 977, "robin_tables": 1, "max_iterations": 109, "total_iterations": 981, "n_solves": 9, "boundary_points": 30456, "clipped_points": 0, "electrode_points": 274104, "electrode_clipped_points": 0, "unbounded_points": 0, "ratio_min": 9.662688e-01, "ratio_max": 1.036143e+00}]},
+    {"name": "chargeable", "wall_time": 2.19755, "solvers": [{"cells": 19032, "dofs": 159983, "truncation_faces": 3384, "wavenumbers": 1, "refine_time": 0.0630495, "fe_time": 0.119819, "boundary_time": 0.112622, "assemble_time": 0.0343272, "preconditioner_time": 0.0445657, "solve_time": 1.91243, "electrode_boundary_time": 0.00674647, "robin_evaluations": 977, "robin_tables": 1, "max_iterations": 109, "total_iterations": 981, "n_solves": 9, "boundary_points": 30456, "clipped_points": 0, "electrode_points": 274104, "electrode_clipped_points": 0, "unbounded_points": 0, "ratio_min": 9.658483e-01, "ratio_max": 1.036621e+00}]}
+  ]
+}

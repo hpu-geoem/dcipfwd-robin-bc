@@ -1,0 +1,10 @@
+rule,wavenumbers,median_rel,background_residual_dc
+log,13,1.7800e-02,5.0540e-03
+log,19,1.6221e-03,4.8608e-04
+log,25,1.4753e-04,4.2509e-05
+layered,13,4.9764e-03,2.9104e-04
+layered,19,5.3049e-04,3.2790e-05
+layered,25,7.8863e-05,4.2508e-06
+layered-joint,13,4.8311e-03,2.6273e-04
+layered-joint,19,5.4878e-04,3.2583e-05
+layered-joint,25,6.4690e-05,3.5715e-06

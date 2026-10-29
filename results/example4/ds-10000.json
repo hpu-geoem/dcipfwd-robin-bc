@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0", "mesh": "models/e8-overthrust/octree-volume/model-10000.mesh", "properties": "models/e8-overthrust/octree-volume/model-10000.prop", "survey": "models/e8-overthrust/octree-volume/survey.txt", "background_file": "models/e8-overthrust/octree-volume/background.txt",
+  "dim": 3, "boundary": "dey-morrison", "reference": "centroid", "order": 2, "solver": "cg", "preconditioner": "lor",
+  "rtol": 1e-10, "max_iterations": 4000, "amg_strength_threshold": 0.6, "mumps_blr_tolerance": 0,
+  "uniform_refinements": 0, "tx_refinements": 2, "rx_refinements": 1, "robin_table": "auto",
+  "ranks": 256, "peak_memory_mib_max": 1149.9, "peak_memory_mib_sum": 272138.1,
+  "background": [{"top": 0, "rho": 81.51903191, "eta": 0.06875144311}, {"top": 400, "rho": 142.8175652, "eta": 0.03345928116}, {"top": 800, "rho": 113.0922488, "eta": 0.03884422163}, {"top": 1200, "rho": 235.6406173, "eta": 0.02474825988}, {"top": 1600, "rho": 387.3542874, "eta": 0.02087374181}, {"top": 2000, "rho": 286.4414785, "eta": 0.02009957676}, {"top": 2400, "rho": 620.1590885, "eta": 0.02000000067}, {"top": 2800, "rho": 1848.0593300000003, "eta": 0.02000000002}, {"top": 3200, "rho": 1579.923098, "eta": 0.02}, {"top": 3600, "rho": 2749.141886, "eta": 0.02}, {"top": 4000, "rho": 4299.673773, "eta": 0.02}, {"top": 4400, "rho": 4346.788716, "eta": 0.02}],
+  "passes": [
+    {"name": "dc", "wall_time": 119.388, "solvers": [{"cells": 502438, "dofs": 3414203, "truncation_faces": 2652, "wavenumbers": 1, "refine_time": 1.12093, "fe_time": 0.0341554, "boundary_time": 0.00535689, "assemble_time": 0.402812, "preconditioner_time": 0.417449, "solve_time": 112.596, "electrode_boundary_time": 0, "robin_evaluations": 0, "robin_tables": 0, "max_iterations": 46, "total_iterations": 15524, "n_solves": 351, "boundary_points": 23868, "clipped_points": 0, "electrode_points": 0, "electrode_clipped_points": 0, "unbounded_points": 0, "ratio_min": null, "ratio_max": null}]},
+    {"name": "chargeable", "wall_time": 128.122, "solvers": [{"cells": 502438, "dofs": 3414203, "truncation_faces": 2652, "wavenumbers": 1, "refine_time": 1.0864, "fe_time": 0.0297111, "boundary_time": 0.00594094, "assemble_time": 0.387236, "preconditioner_time": 0.345397, "solve_time": 123.554, "electrode_boundary_time": 0, "robin_evaluations": 0, "robin_tables": 0, "max_iterations": 46, "total_iterations": 15512, "n_solves": 351, "boundary_points": 23868, "clipped_points": 0, "electrode_points": 0, "electrode_clipped_points": 0, "unbounded_points": 0, "ratio_min": null, "ratio_max": null}]}
+  ]
+}
